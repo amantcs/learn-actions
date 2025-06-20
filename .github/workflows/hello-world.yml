@@ -7,4 +7,5 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4.2.2
       - run: echo "{cat hello_world.txt}"
+      - run: cat hello_word.txt
     
